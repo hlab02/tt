@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+       ul{
+        display: flex;
+        list-style: none;
+        background-color: #c4c4c4;
+        width: 13%;
+        height: 50px ;
+        padding:0 ;
+        margin: 20px 0 20px 20px;
+       }
+       a{
+        height: 100%;
+        display: block;
+        text-decoration: none;
+        color: black;
+        
+        padding: 10px;
+       }
+       li{
+        padding: 0px;
+        
+       }
+       .active{
+        color: white;
+       }
+       .actv{
+        background-color: #51b151;
+       }
+       .actv:hover{
+        transition: all 0.2s;
+        background-color: #3e893e;
+        cursor: pointer;
+       }
+       .lii:hover {
+        transition: all 0.2s;
+        background-color: #3b3838;
+        cursor: pointer;
+       }
+       .aa:hover{
+        transition: all 0.2s;
+        color: white;
+       }
+    </style>
+    
+        <ul>
+            <li class="actv"><a class="active" href="#active" target="_blank">Home</a></li>
+            <li class="lii"><a class="aa" href="#news">News</a></li>
+            <li class="lii"><a class="aa" href="#contact">Contact</a></li>
+            <li class="lii"><a class="aa" href="#about">About</a></li>
+        </ul>
+    
+</body>
+</html>
